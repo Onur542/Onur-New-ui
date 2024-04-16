@@ -1,0 +1,41 @@
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+local GUI = Mercury:Create{
+    Name = "onurumu6 Script Hub",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://github.com/deeeity/mercury-lib"
+    local Tab = GUI:Tab{
+        Name = "Blox Fruits",
+        Icon = "rbxassetid://8569322835"
+    }Tab:Button{
+        Name = "Hoho Hub",
+        Description = nil,
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()  
+        Callback = function() end
+    }Tab:Button{
+        Name = "Alchemy Hub",
+        Description = nil,
+        loadstring(game:HttpGet("https://luable.top/acm"))()
+        Callback = function() end
+    }Tab:Button{
+        Name = "Redz Hub",
+        Description = nil,
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+        Callback = function() end
+    }Tab:Button{
+        Name = "W-Azure",
+        Description = nil,
+        getgenv().Team = "Pirates"
+getgenv().AutoLoad = false --Will Load Script On Server Hop
+getgenv().SlowLoadUi  = false
+getgenv().ForceUseSilentAimDashModifier = false --Force turn on silent aim , if error then executor problem
+getgenv().ForceUseWalkSpeedModifier = false --Force turn on Walk Speed Modifier , if error then executor problem
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+        Callback = function() end
+    }Tab:Button{
+        Name = "Raito Hub",
+        Description = nil,
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+        Callback = function() end
+    }
+}
